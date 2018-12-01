@@ -7,10 +7,10 @@ A static mockup of a React App.
 Clone, install dependencies, host.
 
 `git clone https://github.com/GrumpyEwok/sheet-scroller`
-`npm i`
-`npm run start`
 
-`git clone 
+`npm i`
+
+`npm run start` 
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -7,13 +7,13 @@ html, body, #root, .App {
   width: 100%;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-around;
 }
 
 .Nav {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  width: 100%;
   margin: auto;
 }
 
@@ -24,10 +24,17 @@ html, body, #root, .App {
   display: inline-block;
 }
 
+.Landing {
+  background-color: royalblue;
+/*width: ;
+  height: ; */
+}
+/* Potentially Weird Styles Below */
 .container {
   display: flex;
   flex-direction: column;
 }
+
 .container h1 {
   text-align: center;
   font-size: 18px;

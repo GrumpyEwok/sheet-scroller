@@ -1,16 +1,17 @@
 import React from 'react';
 import Logo from './Logo.jsx';
 import Nav from './Nav.jsx';
+import UserPortal from './UserPortal';
 
 function Header() {
+  const userPortal = {
 
+  }
     return (
       <div className='Header'>
         < Nav />
         < Logo />
-        <div className='portal-wrapper'>
-          <h4>User Controls</h4>
-        </div>
+        < UserPortal />
       </div>
     );
   }

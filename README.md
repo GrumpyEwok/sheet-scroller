@@ -13,6 +13,10 @@ Clone, install dependencies, host.
 
 `npm run start`
 
+###### Notes
+
+* Had some issues getting a router to play nicely with create-react-app.  Went back to docs and found BrowserRouter as a recommended implementation.
+
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

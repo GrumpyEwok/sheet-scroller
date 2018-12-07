@@ -1,9 +1,9 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function UserPortal() {
   return(
-    <div>
-      <p>Click me to log in!</p>
+    <div className='UserPortal'>
+      <Link to="/user"><button>UserPortal</button></Link>
     </div>
   )
 }

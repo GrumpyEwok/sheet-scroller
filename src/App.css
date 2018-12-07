@@ -6,12 +6,10 @@ html, body, #root, .App {
 .Header {
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
-.Nav {
-  width: 100%;
+.Nav, .UserPortal {
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -19,9 +17,9 @@ html, body, #root, .App {
 
 .Logo {
   width: 100px;
-  height: 100px;
+  height: 50px;
   background-color: gold;
-  display: inline-block;
+  text-align: center;
 }
 
 .Landing {

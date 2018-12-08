@@ -4,15 +4,14 @@ function Landing(){
 
   return (
     <div className='Landing'>
-      <p>I'm gonna contain all the default view content!</p>
-      <div>
+      <div id='hero'>
         <h4>Hero</h4>
       </div>
-      <div>
-        <h4>Purpose/Utility</h4>
-      </div>
-      <div>
+      <div id='features'>
         <h4>Tabbable Features Overview</h4>
+      </div>
+      <div id='intent'>
+        <h4>Purpose/Utility</h4>
       </div>
     </div>
   )

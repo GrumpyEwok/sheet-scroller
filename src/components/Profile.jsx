@@ -3,7 +3,7 @@ import React from 'react';
 function Profile(){
 
   return (
-    <div>
+    <div className='Profile'>
       <h1>I'm the default user page!</h1>
       <h4>I should have access to:</h4>
       <ul>

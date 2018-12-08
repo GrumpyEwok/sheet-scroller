@@ -17,6 +17,14 @@ Clone, install dependencies, host.
 
 * Had some issues getting a router to play nicely with create-react-app.  Went back to docs and found BrowserRouter as a recommended implementation.
 
+Fonts:   
+
+  * `font-family: 'Quicksand', sans-serif;` <br>
+    For landing: <em> Light 300; Medium 500; Bold 700.
+
+  * `font-family: 'EB Garamond', serif;` <br>
+    For User UI: <em> Regular 400; Extra Bold 800.
+
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

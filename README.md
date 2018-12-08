@@ -2,6 +2,7 @@
 
 This is currently a mockup of a larger-scale React application in development.  Its intent is to function like a portfolio for users, while serving a handy in-site PDF viewer to browse.  I'll use the display and viewer layers of PDF-js to build out features of my pdf-viewer component.  UI architecture and state management will be done primarily with React and React-Redux, with the potential to hook in Firebase.
 
+[Link to Capstone Planning Repo](https://github.com/GrumpyEwok/capstone-planning.git)
 
 #### Setup
 

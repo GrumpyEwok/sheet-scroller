@@ -18,6 +18,10 @@ Clone, install dependencies, host.
 
 * Had some issues getting a router to play nicely with create-react-app.  Went back to docs and found BrowserRouter as a recommended implementation.
 
+* React-Pdf-Js is out.  Pdf-js is in!  May have to rebuild from source, but I will test via cdn.
+
+* Going to use Async/Await in componentDidMount, to handle pdf initialization.  componentWillMount cannot be async, render cannot be async.  Methods however can be!
+
 Fonts:   
 
   * `font-family: 'Quicksand', sans-serif;` <br>
@@ -25,6 +29,8 @@ Fonts:
 
   * `font-family: 'EB Garamond', serif;` <br>
     For User UI: <em> Regular 400; Extra Bold 800.
+
+
 
 
 <!-- ###### Planned State:

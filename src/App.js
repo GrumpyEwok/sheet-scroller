@@ -19,7 +19,6 @@ class App extends Component {
               <Route path='/user' render={()=> <Profile/>} />
               <Route path='/viewer' render={() => <Viewer/>} />
             </Switch>
-            <Footer/>
         </div>
       </Router>
     );

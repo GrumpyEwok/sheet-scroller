@@ -22,6 +22,13 @@ button {
   background-color: #9d7e72;
 }
 
+.Logo {
+  /* Will need to absolute position this, and remove from Flex. */
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
 .Footer {
   width: 100vw;
   height: 6vh;
@@ -33,16 +40,19 @@ button {
   background-color: #9d7e72;
 }
 
-.Nav, .UserPortal {
+.Nav {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.Logo {
-  width: 100px;
-  height: 50px;
-  text-align: center;
+.UserPortal {
+  /* Requires explicit width to flex children. */
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Landing {

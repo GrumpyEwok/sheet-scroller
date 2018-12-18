@@ -12,9 +12,6 @@ function Profile(){
         <li>Uploads,</li>
         <li>and a Link to a way to view my associated PDFS.</li>
       </ul>
-
-        <Viewer/>
-
     </div>
   )
 }

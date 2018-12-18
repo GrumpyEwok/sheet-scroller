@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Logo() {
+export default function Logo() {
   return(
     <div className="Logo">
       <p>Logo</p>
     </div>
-  )
+  );
 }
-
-export default Logo;

@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Landing from './components/Landing';
 import Profile from './components/Profile';
 import Viewer from './components/Viewer/Viewer';
-import PDFjs from './backends/pdfjs';
+import PDFjsBackend from './backends/pdfjs';
 
 class App extends Component {
   render() {
@@ -17,7 +17,8 @@ class App extends Component {
           <Route exact path='/' component={ Landing } />
             <Switch>
               <Route path='/user' render={()=> <Profile/>} />
-              <Route path='/viewer' render={() => <Viewer/>} />
+              <Route path='/viewer' render={() =>
+                  <Viewer backend={PDFjsBackend} src="/testPDF.pdf"/>} />
             </Switch>
         </div>
       </Router>

@@ -24,10 +24,8 @@ button {
 
 .Footer {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   margin-top: 1em;
-  bottom: 0;
-  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;

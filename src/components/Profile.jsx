@@ -1,5 +1,5 @@
 import React from 'react';
-import Viewer from './Viewer';
+import Viewer from './Viewer/Viewer';
 
 function Profile(){
 
@@ -12,9 +12,9 @@ function Profile(){
         <li>Uploads,</li>
         <li>and a Link to a way to view my associated PDFS.</li>
       </ul>
-      <div className='container'>
+
         <Viewer/>
-      </div>
+
     </div>
   )
 }

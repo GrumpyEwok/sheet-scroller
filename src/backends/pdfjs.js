@@ -1,8 +1,11 @@
 export default class PDFJs {
   init = (source, element) => {
-    const textNode = document.createElement('p');
-    textNode.innerHTML = `Our PDF source will be: ${source}`;
+    const iframe = document.createElement('iframe');
 
-    element.appendChild(textNode);
+    iframe.src = `./pdfjs-2.0.943-dist/web/viewer.html?file=${source}`;
+    iframe.width = '100%';
+    iframe.height = '100%';
+
+    element.appendChild(iframe);
   }
 }

@@ -24,6 +24,10 @@ Clone, install dependencies, host.
 
 * Remember to use Try/Catch blocks for best readability/UX.
 
+* Think about how to store/download PDFs as needed, so that they can be retrieved remotely.  Node.js to the rescue?  
+
+* Find a way to check for some 'isPDFready' evaluator (i.e. " if (...){} "  ) in order to provide users with a custom spinner while the document loads.  This logic is in PDFjs dist, so it may be difficult to expose.
+
 Fonts:   
 
   * `font-family: 'Quicksand', sans-serif;` <br>

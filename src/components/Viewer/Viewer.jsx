@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { PDFJS } from 'pdfjs-dist';
 
 export default class Viewer extends Component {
   constructor(props) {
@@ -18,8 +17,9 @@ export default class Viewer extends Component {
 
   render(){
     return (
-      <div ref={this.viewerRef} id='view-wrapper' style={{ width: '100%', height: '100%'}}>
-        <p>Hello PDF!</p>
+      <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: ' 0.2rem auto auto', height: '95vh'}}>
+
+
       </div>
     );
   }

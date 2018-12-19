@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
-import Footer from './components/Footer';
 import Landing from './components/Landing';
 import Profile from './components/Profile';
 import Viewer from './components/Viewer/Viewer';
 import PDFjsBackend from './backends/pdfjs';
+
+import source from './assets/test-pdfs/myaskovsky-sonata2.pdf';
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
             <Switch>
               <Route path='/user' render={()=> <Profile/>} />
               <Route path='/viewer' render={() =>
-                  <Viewer backend={PDFjsBackend} src="/testPDF.pdf"/>} />
+                  <Viewer backend={PDFjsBackend} src={source}/>} />
             </Switch>
         </div>
       </Router>

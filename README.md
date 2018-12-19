@@ -28,6 +28,8 @@ Clone, install dependencies, host.
 
 * Find a way to check for some 'isPDFready' evaluator (i.e. " if (...){} "  ) in order to provide users with a custom spinner while the document loads.  This logic is in PDFjs dist, so it may be difficult to expose.
 
+* PDFjs waits for all assets (objects) of the PDF to load before attempting to render on the canvas, this is what causes delay.
+
 Fonts:   
 
   * `font-family: 'Quicksand', sans-serif;` <br>

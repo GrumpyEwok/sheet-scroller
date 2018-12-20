@@ -45,6 +45,13 @@ Attributions:
 
   https://www.vecteezy.com/vector-art/86360-elegant-frames-and-wreaths
 
+
+Parallax:
+
+  https://www.okgrow.com/posts/css-only-parallax
+
+  https://speckyboy.com/10-css-javascript-parallax-scrolling-code-snippets/
+
 Fonts:   
 
   * `font-family: 'Quicksand', sans-serif;` <br>

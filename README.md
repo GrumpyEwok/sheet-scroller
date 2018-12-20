@@ -30,6 +30,8 @@ Clone, install dependencies, host.
 
 * Move link to Test Viewer into Profile component. Mock Thumbnail/Link.
 
+* The alignment between Header Logo and Landing Nameplate at path '/' is not in pixel perfect alignment.
+
 Attributions:
   License distributed for PDF.js.
   Red Keyboard Photo w/ Hands == Photo by Puk Khantho on Unsplash

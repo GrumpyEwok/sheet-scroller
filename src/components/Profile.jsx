@@ -1,6 +1,11 @@
+// For logged-in Users, render a profile picture in UserInfo absolutely positioned over the Frame in Profile.
+
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import Header from './Header';
+import UserInfo from './User/UserInfo';
+
 
 function Profile(){
 
@@ -8,14 +13,8 @@ function Profile(){
     <div className='profile-bg'>
       <Header/>
       <div className='Profile'>
-          <Link to="/viewer"><button>Test Viewer</button></Link>
-        <h1>I'm the default user page!</h1>
-        <h4>I should have access to:</h4>
-        <ul>
-          <li>Settings,</li>
-          <li>Uploads,</li>
-          <li>and a Link to a way to view my associated PDFS.</li>
-        </ul>
+        <UserInfo/>
+        <Link to="/viewer"><button>Test Viewer</button></Link>
       </div>
     </div>
   )

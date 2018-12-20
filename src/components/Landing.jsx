@@ -1,12 +1,13 @@
 import React from 'react';
-import Footer from './Footer';
+import Header from './Header/Header';
 
 function Landing(){
 
   return (
-    <div>
+
       <div className='Landing'>
         <div className='hero-bg'>
+          <Header/>
           <div id='hero-overlay'>
             <h2>Hero</h2>
           </div>
@@ -18,8 +19,7 @@ function Landing(){
           <h2>Tabbable Features Overview</h2>
         </div>
       </div>
-        <Footer/>
-    </div>
+
   )
 }
 

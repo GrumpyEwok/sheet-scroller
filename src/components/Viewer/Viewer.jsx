@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './../Header/Header';
 
 export default class Viewer extends Component {
   constructor(props) {
@@ -17,9 +18,11 @@ export default class Viewer extends Component {
 
   render(){
     return (
-      <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: 'auto', height: '95vh'}}>
+      <div>
+        <Header/>
+        <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: 'auto', height: '95vh'}}>
 
-
+        </div>
       </div>
     );
   }

@@ -14,7 +14,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Header/>
           <Route exact path='/' component={ Landing } />
             <Switch>
               <Route path='/user' render={()=> <Profile/>} />

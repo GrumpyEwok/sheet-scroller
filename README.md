@@ -30,6 +30,21 @@ Clone, install dependencies, host.
 
 * PDFjs waits for all assets (objects) of the PDF to load before attempting to render on the canvas, this is what causes delay.
 
+* Should consider finding a way to Merge multiple pdfs. 'Set-List Style'.
+
+* Implement parallax, 5px border radii for soft boxes.
+
+Attributions:
+  License distributed for PDF.js.
+  Red Keyboard Photo w/ Hands == Photo by Puk Khantho on Unsplash
+  Symphony Hall w/ Sheet Music Stand == Photo by Radek Grzybowski on Unsplash
+  Grimy Russian Piano == Photo by Patrick Schneider on Unsplash
+  Monochrome Piano w/ Knobs Hands == Photo by Guang Yang on Unsplash
+  Monochrome Italian Sheet Music == Photo by Valentino Funghi on Unsplash
+  Handsome Guy on the Piano == Photo by ian dooley on Unsplash
+
+  https://www.vecteezy.com/vector-art/86360-elegant-frames-and-wreaths
+
 Fonts:   
 
   * `font-family: 'Quicksand', sans-serif;` <br>

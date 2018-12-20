@@ -8,21 +8,27 @@ html {
 html, body, #root, .App {
   width: 100%;
   height: 100%;
-  background-color: #f6e5db;
+  background-color: #4d4d4b;
 }
 
 button {
+  width: 10rem;
   padding: 4px;
-  border-style: none;
-  border-radius: 5%;
   background-color: #a5b3bd;
+  border: 0.5px solid rgba(206, 203, 229, 0.2);
+  box-shadow: 0.5px 1px 4px 1px;
+  border-radius: 2px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
 }
 
 .Header {
   width: 100%;
+  /* height: 100%; */
+  height: 3em;
   display: flex;
   justify-content: space-around;
-  background-color: #9d7e72;
+  background-color: #373c3d;
 }
 
 .Logo {
@@ -51,8 +57,7 @@ button {
 }
 
 .UserPortal {
-  /* Requires explicit width to flex children. */
-  width: 200px;
+  width: 22rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -61,32 +66,50 @@ button {
 .Landing {
   display: flex;
   flex-direction: column;
-}
-
-.Landing > div {
-  border: 1px solid blue;
-  margin: 0 auto;
-  margin-top: 2em;
-  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .Landing:last-child {
   margin-bottom: 2em;
 }
 
-#hero {
+.Landing h1 {
+  font-weight: 700;
+}
+
+.Landing h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+.Landing p, em, cite, strong, small {
+  font-weight: 300;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 96.5vh;
+  /* Overflow unnecessary?  */
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./assets/images/valentino-sheets.png');
+}
+
+#hero-overlay {
   width: 90vw;
   height: 550px;
+  margin: 8em auto auto;
+  border: 1px solid red;
+  text-align: center;
 }
 
-#features {
+.overlay {
   width: 70vw;
   height: 500px;
-}
-
-#intent {
-  width: 70vw;
-  height: 500px;
+  margin: 1em auto;
+  border: 1px solid red;
+  text-align: center;
 }
 
 .Profile {
@@ -100,20 +123,7 @@ button {
   margin: 1em auto;
 }
 
-/* Potentially Weird Styles Below */
-.container {
-  display: flex;
-  flex-direction: column;
-}
+/* Fonts
 
-.container h1 {
-  text-align: center;
-  font-size: 18px;
-  color: #415b76;
-  text-decoration: underline;
-}
-
-/* Fonts */
-/*
 font-family: 'Quicksand', sans-serif;
 font-family: 'EB Garamond', serif; */

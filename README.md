@@ -18,21 +18,17 @@ Clone, install dependencies, host.
 
 * Had some issues getting a router to play nicely with create-react-app.  Went back to docs and found BrowserRouter as a recommended implementation.
 
-* React-Pdf-Js is out.  Pdf-js is in!  May have to rebuild from source, but I will test via cdn.  
-
-* Going to use Async/Await in componentDidMount, to handle pdf initialization.  componentWillMount cannot be async, render cannot be async.  Methods however can be!
-
 * Remember to use Try/Catch blocks for best readability/UX.
 
 * Think about how to store/download PDFs as needed, so that they can be retrieved remotely.  Node.js to the rescue?  
 
 * Find a way to check for some 'isPDFready' evaluator (i.e. " if (...){} "  ) in order to provide users with a custom spinner while the document loads.  This logic is in PDFjs dist, so it may be difficult to expose.
 
-* PDFjs waits for all assets (objects) of the PDF to load before attempting to render on the canvas, this is what causes delay.
-
-* Should consider finding a way to Merge multiple pdfs. 'Set-List Style'.
+* PDFjs waits for all assets (objects) of the PDF to encode before attempting to render on the canvas, this is what causes delay.
 
 * Implement parallax, 5px border radii for soft boxes.
+
+* Move link to Test Viewer into Profile component. Mock Thumbnail/Link.
 
 Attributions:
   License distributed for PDF.js.

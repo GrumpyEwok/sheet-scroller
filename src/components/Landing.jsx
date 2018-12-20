@@ -11,11 +11,11 @@ function Landing(){
             <h2>Hero</h2>
           </div>
         </div>
-        <div className='overlay'>
-          <h2>Tabbable Features Overview</h2>
+        <div className='content'>
+          <h2>Purpose/Utility</h2>
         </div>
         <div className='overlay'>
-          <h2>Purpose/Utility</h2>
+          <h2>Tabbable Features Overview</h2>
         </div>
       </div>
         <Footer/>

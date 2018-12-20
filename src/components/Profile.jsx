@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from './Header/Header';
+import { Link } from 'react-router-dom';
+import Header from './Header';
 
 function Profile(){
 
@@ -7,6 +8,7 @@ function Profile(){
     <div className='profile-bg'>
       <Header/>
       <div className='Profile'>
+          <Link to="/viewer"><button>Test Viewer</button></Link>
         <h1>I'm the default user page!</h1>
         <h4>I should have access to:</h4>
         <ul>

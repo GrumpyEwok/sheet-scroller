@@ -18,15 +18,17 @@ function Landing(){
         <div className='hero-bg'>
           <Header/>
           <div id='hero-overlay'>
-            <img src={nameplate} style={{ width: '40%'}} alt='A decorative nameplate.'/>
-            <img src={simpleBorder} alt='A simple blue tri-petaled border.'/>
-            <img id='logo' src={logo} alt='A blue and gold floral logo.'/>
+            <img src={nameplate} style={{ width: '40em'}} alt='A decorative nameplate.'/>
             <h2>Hero</h2>
           </div>
         </div>
+
         <div className='content'>
-          <h2>Purpose/Utility</h2>
+          <img className='clip-border' src={simpleBorder} style={{width: '100vw', height: '8em', marginTop: '-3.965em', marginLeft: '-0.55em'}} alt='A simple blue tri-petaled border.'/>
+          <h1 style={{textAlign: 'center'}}>Purpose/Intent here.</h1>
+          <img className='clip-border' src={simpleBorder} style={{width: '100vw', height: '6em', marginTop: '10.68em', marginLeft: '-0.4em'}} alt='A simple blue tri-petaled border.'/>
         </div>
+
         <div className='features-bg'>
           <div id='features-overlay' className='overlay'>
             <h2>Tabbable Features Overview</h2>

@@ -20,7 +20,7 @@ export default class Viewer extends Component {
     return (
       <div>
         <Header/>
-        <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: 'auto', height: '95vh'}}>
+        <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: '2em auto auto', height: '94vh'}}>
 
         </div>
       </div>

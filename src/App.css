@@ -173,4 +173,12 @@ button {
 }
 /* Fonts
 
-font-family: 'Quicksand', sans-serif; */
+font-family: 'Quicksand', sans-serif;
+font-family: 'EB Garamond', serif; */
+
+
+/* Viewer CSS Experimentation */
+
+#sidebarContainer {
+  overflow-x: hidden;
+}

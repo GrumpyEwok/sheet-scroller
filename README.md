@@ -16,19 +16,16 @@ Clone, install dependencies, host.
 
 ###### Notes
 
+* Need to adjust centering/scaling at different viewports in the PDF viewer. Overall height is excessive.
+
 * Had some issues getting a router to play nicely with create-react-app.  Went back to docs and found BrowserRouter as a recommended implementation.
 
 * Remember to use Try/Catch blocks for best readability/UX.
-
-* Think about how to store/download PDFs as needed, so that they can be retrieved remotely.  Node.js to the rescue?  
 
 * Find a way to check for some 'isPDFready' evaluator (i.e. " if (...){} "  ) in order to provide users with a custom spinner while the document loads.  This logic is in PDFjs dist, so it may be difficult to expose.
 
 * PDFjs waits for all assets (objects) of the PDF to encode before attempting to render on the canvas, this is what causes delay.
 
-* Implement parallax, 5px border radii for soft boxes.
-
-* Move link to Test Viewer into Profile component. Mock Thumbnail/Link.
 
 * The alignment between Header Logo and Landing Nameplate at path '/' is not in pixel perfect alignment.
 
@@ -59,20 +56,18 @@ Fonts:
     For User UI: <em> Regular 400; Extra Bold 800.
 
 
+Mock State:
 
-
-<!-- ###### Planned State:
-
-  State: {
-    isFetching: false / true,
-    pdfToRender: [ PDF ],
-    user: null / UserObj {
-      userId: v4(),
-      portfolio: null/ PortfolioObj {
-        documents: sources,
-      }
-      userSettings: null/ SettingsObj {
-        options: values,
-      }
-    },
-  }` -->
+    {
+      isFetching: false / true,
+      pdfToRender: [ PDF ],
+      user: null / UserObj {
+        userId: v4(),
+        portfolio: null/ PortfolioObj {
+          documents: sources,
+        }
+        userSettings: null/ SettingsObj {
+          options: values,
+        }
+      },
+    }

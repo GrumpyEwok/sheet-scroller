@@ -562,6 +562,7 @@ html[dir='rtl'] #sidebarContainer {
 }
 
 #outerContainer.sidebarResizing #sidebarContainer {
+  overflow: hidden;
   /* Improve responsiveness and avoid visual glitches when the sidebar is resized. */
   transition-duration: 0s;
   /* Prevent e.g. the thumbnails being selected when the sidebar is resized. */

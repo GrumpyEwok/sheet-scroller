@@ -22,7 +22,7 @@ export default class Viewer extends Component {
       <React.Fragment>
         <Header/>
 
-        <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: '2em auto auto', height: '94vh'}} />
+        <div ref={this.viewerRef} id='view-wrapper' style={{ width: '99vw', margin: 'auto', height: '94vh'}} />
       
         
       </React.Fragment>

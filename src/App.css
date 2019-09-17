@@ -4,6 +4,7 @@
 
 html, body {
   overflow-x: hidden;
+/* overflow: hidden; */
   box-sizing: border-box;
 }
 
@@ -24,12 +25,14 @@ button {
 }
 
 .Header {
-  width: 100vw;
-  height: 2em;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 2px;
+  margin-bottom: 2px 2px 1px;
   /* background-color: #373c3d; */
+ 
 }
 
 .Footer {
@@ -38,8 +41,8 @@ button {
   margin-top: 1em;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   background-color: #9d7e72;
 }
 
@@ -51,8 +54,8 @@ button {
 }
 
 #logo {
-  width: 400px;
-  height: 4em;
+  width: 5vw;
+  height: 4vh;
 }
 
 .Landing {
@@ -163,7 +166,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10em auto auto;
+  margin: auto;
   background-color: rgba(20,24,27,0.975);
   border-radius: 5px;
 }
